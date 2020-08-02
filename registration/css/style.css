@@ -1,0 +1,179 @@
+/* Top Bar
+--------------------------------*/
+   #topbar {
+  padding: 0;
+  font-size: 15px;
+  height: 50px;
+  transition: all 0.5s;
+  background: rgba(26, 24, 22, 0.8);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#topbar.topbar-transparent {
+  background: transparent;
+}
+
+#topbar.topbar-scrolled {
+  top: -50px;
+}
+
+#topbar i {
+  color: #0000FF;
+}
+
+#topbar i + i {
+  margin-left: 15px;
+  margin-right: -55px;
+}
+
+/* About Us Section
+--------------------------------*/
+#ab {
+  background: url("../img/reg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#ab::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9;
+}
+
+#ab .container {
+  position: relative;
+  z-index: 10;
+}
+
+/* form
+--------------------------*/
+
+        
+        
+        
+        input[type=text],input[type=tel]
+        {
+            width:100%;
+            box-sizing: border-box;
+            padding: 12px 5px;
+            background: rgba(0,0,0,0.10);
+            outline: none;
+            border: none;
+            border-bottom: 1px dotted #fff;
+            color: #fff;
+            border-radius: 5px;
+            margin: 5px;
+            /*font-family: "Open Sans", sans-serif;*/
+            
+        }
+
+        input[type=submit]{
+          font-family: "Montserrat", sans-serif;
+            display: block;
+            width: 50%;
+            box-sizing: border-box;
+            margin: auto;
+            padding: 10px ;
+            outline: none;
+            border: none;
+            background: #0000FF;
+            opacity: 0.5;
+            border-radius: 30px;
+            font-size: 15px;
+            color: #fff;
+        }
+        input[type=submit]:hover{
+            background: #fff;
+            color: #0000FF;
+            opacity: 0.7;
+        }
+
+
+      select { 
+        -webkit-appearance: none; 
+        -moz-appearance: none; 
+        -ms-appearance: none; 
+        appearance: none; 
+      }
+
+      .select {
+
+        max-width: 480px;    
+        position: relative; 
+        display: block; 
+        height: 5em; 
+        background:  rgba(0,0,0,0.10); 
+        overflow: hidden; 
+        border-radius: .25em;
+      } 
+
+      select { 
+            max-width: 480px;
+            border-radius: 20px;
+            margin: auto;  
+            padding: 40px;
+            margin-top: 100px;
+            width:100%;
+            box-sizing: border-box;
+            padding: 12px 5px;
+            background: rgba(0,0,0,0.10);
+            color: #fff;
+            opacity: 0.5;
+            outline: none;
+            border: none;
+            border-bottom: 1px dotted #fff;
+            border-radius: 5px;
+            margin: 5px; 
+            cursor: pointer; 
+
+      } 
+      select::-ms-expand { 
+        display: none; 
+      } 
+      .select::after { 
+        content: '\02C5'; 
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        bottom: 0; 
+        padding: 18px 5px; 
+        color: yellow;
+        background: transparent; 
+        pointer-events: none; 
+      } 
+      .select:hover::after { 
+        color: white; 
+      } 
+      
+      <!-- For different browsers -->
+      .select::after { 
+        -webkit-transition: .25s all ease; 
+        -o-transition: .25s all ease; 
+        transition: .25s all ease; 
+      } 
+
+      option{
+            background: rgba(0,0,0,0.9);;
+            color: #fff;
+            
+        }
+    
+    /*form ================ */
+
+    #submit-anim{
+              z-index:1000;
+              position: absolute;
+              width:30%;
+              height:30%;
+              display: none; /*set to flex when displaying */
+             margin-top:200px; 
+             margin-left:100px;
+              background-color: transparent;
+              border-radius: inherit;
+              }  
