@@ -186,13 +186,10 @@
     /*form ================ */
 
     #submit-anim{
-              z-index:1000;
-              position: absolute;
-              width:30%;
-              height:30%;
-              display: none; /*set to flex when displaying */
-             margin-top:200px; 
-             margin-left:100px;
-              background-color: transparent;
-              border-radius: inherit;
+      position:absolute; 
+      bottom: 40%;
+      left:35%;
+      right:40%;
+      display: none; /*set to flex when displaying */
               }  
+       
