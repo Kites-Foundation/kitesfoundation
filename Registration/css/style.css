@@ -18,7 +18,7 @@
 }
 
 #topbar i {
-  color: #0000FF;
+  color: #ffb03b;
 }
 
 #topbar i + i {
@@ -26,8 +26,28 @@
   margin-right: -55px;
 }
 
-/* About Us Section
+
+/*Navigation Menu
+--------------------------------------------------------------*/
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: #ffb03b;
+}
+
+
+/* Join Us Section
 --------------------------------*/
+.section-header h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #ffb03b;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
 #ab {
   background: url("../img/reg.jpg") center top no-repeat fixed;
   background-size: cover;
@@ -82,16 +102,15 @@
             padding: 10px ;
             outline: none;
             border: none;
-            background: #0000FF;
+            background: transparent;
+            border: 2px solid #ffb03b;
             opacity: 0.5;
             border-radius: 30px;
             font-size: 15px;
             color: #fff;
         }
-        input[type=submit]:hover{
-            background: #fff;
-            color: #0000FF;
-            opacity: 0.7;
+        input[type=submit]:hover{    
+            background: #ffb03b;
         }
 
 
@@ -143,7 +162,7 @@
         right: 0; 
         bottom: 0; 
         padding: 18px 5px; 
-        color: yellow;
+        color: #ffb03b;
         background: transparent; 
         pointer-events: none; 
       } 
@@ -167,13 +186,10 @@
     /*form ================ */
 
     #submit-anim{
-              z-index:1000;
-              position: absolute;
-              width:30%;
-              height:30%;
-              display: none; /*set to flex when displaying */
-             margin-top:200px; 
-             margin-left:100px;
-              background-color: transparent;
-              border-radius: inherit;
+      position:absolute; 
+      bottom: 40%;
+      left:35%;
+      right:40%;
+      display: none; /*set to flex when displaying */
               }  
+       

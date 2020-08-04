@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Registration</title>
+  <title>Membership</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -27,7 +27,7 @@
   <!-- Template Main CSS File -->
   
   <link href="voice_assets/css/style.css" rel="stylesheet">
-  <link href="Registration/css/style.css" rel="stylesheet">
+  <link href="registration/css/style.css" rel="stylesheet">
   
   
 </head>
@@ -56,7 +56,7 @@
           <a href="voiceofindia.html" class="logo mr-auto" style="border-left: 0px"><img src="assets/img/logo.png" alt="" class="img-fluid" style="min-height: 100px;"></a>
           <nav class="nav-menu d-none d-lg-block";>
             <ul>
-              <li class="active"><a href="registration.html" style="font-size: 13px">Join Us</a></li>
+              <li class="active"><a href="membership.html" style="font-size: 13px">Join Us</a></li>
               <li><a href="index.html" style="font-size: 13px">Home</a></li>
               <li><a href="index.html#about" style="font-size: 13px">About</a></li>
               <li><a href="index.html#wings"" style="font-size: 13px">Wings</a></li>
@@ -96,7 +96,7 @@
 
        			 <div class="carousel-inner" role="listbox">
 
-         		 <div class="carousel-item active" style="background-image: url(Registration/img/reg1.jpg);background-size: cover;">
+         		 <div class="carousel-item active" style="background-image: url(registration/img/reg1.jpg);background-size: cover;">
             	<div class="carousel-container">
               	<div class="container">
                 	<h2 class="animate__animated animate__fadeInDown">Our Vision</h2>
@@ -106,7 +106,7 @@
             	</div>
           		</div>
 
-          <div class="carousel-item" style="background-image: url(Registration/img/reg2.jpg);background-size: cover;">
+          <div class="carousel-item" style="background-image: url(registration/img/reg2.jpg);background-size: cover;">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Our Mission</h2>
@@ -116,7 +116,7 @@
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(Registration/img/reg3.jpg);background-size: cover;">
+          <div class="carousel-item" style="background-image: url(registration/img/reg3.jpg);background-size: cover;">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Let's make the difference!</h2>
@@ -147,15 +147,17 @@
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="about-col">
 
-              <div id="submit-anim">
-          		<img style="margin: auto;" src="assets/img/logo.png"/>
-        	  </div>
+            <div style="position: relative;">
+
+            <div id="submit-anim">
+            <img  class="img-fluid" src="assets/img/logo.png"/>
+            </div>
              
            <form id="signup-form" action="https://api.kitesfoundation.org/email/" method="POST">
             <input name="name" type="text" placeholder="Full Name" required>
             <input name="email" type="text" placeholder="Email" required>
             <input name="phone" type="tel" placeholder="Contact Number" required>
-            <input name="whatsappno" type="tel" placeholder="Whatsapp Number(optional)">
+            <input name="whatsappno" type="tel" placeholder="Whatsapp Number( if another)">
             <input name="state" type="text" placeholder="State" required>
             <input name="district" type="text" placeholder="District" required>
             <input name="qualification" type="text" placeholder="Qualification">
@@ -172,10 +174,12 @@
             </select>
           </div>
 
+
             <br>
             <input type="submit" value="Register Now" class="btn-get-started scrollto animate__animated animate__fadeInUp">
             
           </form>
+        </div>
           <br>
             </div>
           </div>
@@ -204,7 +208,7 @@
 
 
 
-  <a href="#" class="back-to-top"><i class='bx bx-up-arrow'></i></a>
+  <a href="#" class="back-to-top" style="background: #ffb03b;"><i class="bx bx-up-arrow"></i></a>
   
 
   <!-- Vendor JS Files -->
@@ -221,7 +225,7 @@
 
   <!-- Template Main JS File -->
   <script src="voice_assets/js/main.js"></script>
-   <script src="Registration/js/main.js"></script>
+   <script src="registration/js/main.js"></script>
   
 
 
