@@ -148,9 +148,9 @@
     });
   });
 
-  // Intro carousel
-  var introCarousel = $(".carousel");
-  var introCarouselIndicators = $(".carousel-indicators");
+// Intro carousel
+  var introCarousel = $(".icar");
+  var introCarouselIndicators = $(".icarin");
   introCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
     (index === 0) ?
     introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "' class='active'></li>"):
@@ -161,6 +161,23 @@
     $(this).find('h2').addClass('animate__animated animate__fadeInDown');
     $(this).find('p, .btn-get-started').addClass('animate__animated animate__fadeInUp');
   });
+
+  // Team carousel
+  var teamCarousel = $(".tcar");
+  var teamCarouselIndicators = $(".teamCarouselindicator");
+  teamCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
+    (index === 0) ?
+    teamCarouselIndicators.append("<li data-target='#teamCarousel' data-slide-to='" + index + "' class='active'></li>"):
+      teamCarouselIndicators.append("<li data-target='#teamCarousel' data-slide-to='" + index + "'></li>");
+  });
+
+  teamCarousel.on('slid.bs.carousel', function(e) {
+    $(this).find('h2').addClass('animate__animated animate__fadeInDown');
+    $(this).find('p, .btn-get-started').addClass('animate__animated animate__fadeInUp');
+  });
+ 
+
+
 
   // Skills section
   $('#skills').waypoint(function() {
