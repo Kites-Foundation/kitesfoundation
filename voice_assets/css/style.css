@@ -1263,19 +1263,19 @@ section {
 
 /* Team Section
 --------------------------------*/
-#team {
+#team{
   background: #fff;
   padding: 60px 0;
 }
 
-#team .member {
+#team .member{
   text-align: center;
   margin-bottom: 20px;
   background: #000;
   position: relative;
 }
 
-#team .member .member-info {
+#team .member .member-info{
   opacity: 0;
   display: flex;
   justify-content: center;
@@ -1288,12 +1288,12 @@ section {
   transition: 0.2s;
 }
 
-#team .member .member-info-content {
+#team .member .member-info-content{
   margin-top: -50px;
   transition: margin 0.2s;
 }
 
-#team .member:hover .member-info {
+#team .member:hover .member-info{
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
@@ -1304,21 +1304,21 @@ section {
   transition: margin 0.4s;
 }
 
-#team .member h4 {
+#team .member h4{
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-#team .member span {
+#team .member span{
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-#team .member .social {
+#team .member .social{
   margin-top: 15px;
 }
 
@@ -1327,14 +1327,60 @@ section {
   color: #fff;
 }
 
-#team .member .social a:hover {
+#team .member .social a:hover{
   color: #18d26e;
 }
 
-#team .member .social i {
+#team .member .social i{
   font-size: 18px;
   margin: 0 2px;
 }
+
+/*Guest Section
+-------------------------------------------------------------*/
+#guest {
+  background-color: rgba(0,0,0,0.1);
+  padding: 50px 0;
+}
+
+#guest .member{
+  text-align: center;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  height:220px;
+}
+
+#guest .member .member-info {
+  opacity: 1;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+#guest .member .member-info-content {
+  margin-top: 3px;
+  transition: margin 0.2s;
+}
+
+
+#guest .member h4{
+  font-weight: 800;
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: #fff;
+}
+
+#guest .member span{
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+
+
+
+
 
 /* Contact Section
 --------------------------------*/
