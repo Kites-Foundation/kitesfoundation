@@ -148,6 +148,21 @@
     $(this).find('p, .btn-menu, .btn-book').addClass('animate__animated animate__fadeInUp');
   });
 
+   // chef carousel
+  var chefCarousel = $("#chefCarousel");
+  var chefCarouselIndicators = $("#chef-carousel-indicators");
+  chefCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
+    (index === 0) ?
+    chefCarouselIndicators.append("<li data-target='#chefCarousel' data-slide-to='" + index + "' class='active'></li>"):
+      chefCarouselIndicators.append("<li data-target='#chefCarousel' data-slide-to='" + index + "'></li>");
+  });
+
+  chefCarousel.on('slid.bs.carousel', function(e) {
+    $(this).find('h2').addClass('animate__animated animate__fadeInDown');
+   
+  });
+
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
