@@ -76,6 +76,7 @@
     position: absolute;
     left:50px; 
     
+    
 }
 
 /*#team .carousel-control-next-icon, #team .carousel-control-prev-icon {
@@ -89,6 +90,24 @@
   background-color: grey;
 
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 </style>
 </head>
 
@@ -205,7 +224,7 @@
 
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Register</a></h4>
+            <h4 class="title"><a href=" https://docs.google.com/forms/d/1FSu6gT6lQiBr5hwwHXmd9XdLsO3LsEKFPEYnojxqjgM/edit?usp=sharing_eip&ts=5ff1e5cf&urp=gmail_link&gxids=7628">Register</a></h4>
             <p class="description">Register through the link provided in our official Website. Participant Registration will be closed on 1st of August, 2020 at 12 AM. You will get a Confirmation letter after the registration process.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
@@ -237,13 +256,26 @@
        <section id="sponsors">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
-            <h3>Our Sponsors</h3>
+            <h3>Partners</h3>
           </div>
          <p style="text-align: center;"></p>
-          <div class="row">
-  
-         
           
+        <div class="row">
+          <div class="column">
+            <a href="https://www.keralatourism.org/">
+            <img src="c4munnar_assets/tourism.png" alt="Tourism" style="width:40%"></a>
+          </div>
+          <div class="column">
+            <a href="https://studevsoc.com/">
+            <img src="c4munnar_assets/sds.png" alt="SDS" style="width:70%"></a>
+          </div>
+          <div class="column">
+            <a href="https://www.pehia.org/">
+            <img src="c4munnar_assets/pehia.png" alt="Pehia" style="width:70%"></a>
+          </div>
+          <!--<div class="column">
+            <img src="https://cdn.kites.foundation/img/code4munnar/logo.png" alt="Mountains" style="width:100%">
+          </div>-->
         </div>
   
         </div>
@@ -258,13 +290,13 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <p>voiceofindia@kitesfoundation.org</p>
+            <p>info@kitesfoundation.org</p>
           </div>
           
 
           <div class="col-lg-3 col-md-6 footer-contact">
             
-            <p>+91 8138 0009 35</p>
+            <p>+91 94009 91768</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
