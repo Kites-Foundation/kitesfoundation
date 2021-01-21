@@ -918,11 +918,13 @@ body {
   /*Sponsors Section
   -------------------------------------------------------------*/
   #sponsors {
-    background-color: rgba(0,0,0,0.1);
+    background-color:whitesmoke;
     padding: 50px 0;
   }
+
+ 
   
-  #sponsors .member{
+  /* #sponsors .member{
     text-align: center;
     margin-bottom: 20px;
     background: rgba(0, 0, 0, 0.8);
@@ -955,7 +957,7 @@ body {
     display: block;
     font-size: 13px;
     color: #fff;
-  }
+  } */
   
   
   
