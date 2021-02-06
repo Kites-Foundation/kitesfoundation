@@ -1310,7 +1310,49 @@ section {
   font-size: 16px;
   margin: 0 2px;
 }
+#chefbutton{
+  padding: 5% 35%;
+  align-content: center;
+}
+.button {
+  position: absolute;
+  border-radius: 6px;
+  background-color:#ffb03b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 @media (max-width: 992px) {
   .chefs .member {
     margin-bottom: 110px;
@@ -1443,39 +1485,41 @@ section {
    padding: 15px; 
    width: 100%; 
    position:relative; 
+}
+.MultiCarousel .MultiCarousel-inner {
+   transition: 
+   1s ease all; 
+   float: left; 
   }
-.MultiCarousel{ 
-  Height: 189px;
-  }
-.MultiCarousel .MultiCarousel-inner { 
-  transition: 1s ease all; 
-  float: left; }
 .MultiCarousel .MultiCarousel-inner .item { 
   float: left;
 }
-.MultiCarousel .MultiCarousel-inner .item > div {
+.MultiCarousel .MultiCarousel-inner .item > div { 
   text-align: center; 
-  margin:10px;
   padding: 10px;
-  background:#f1f1f1;
-  color:#666;}
-.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
-  position:absolute; 
-  border-radius:50%;
-  top:calc(50% - 20px); 
+   margin:10px; 
+   background:white; 
+   color:white;
 }
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+   position:absolute; 
+   border-radius:50%;
+   top:calc(50% - 20px); 
+  }
+
 .MultiCarousel .leftLst { 
   left:0; 
 }
-.MultiCarousel .rightLst { 
-  right:0; 
+
+.MultiCarousel .rightLst {
+   right:0; 
 }
     
 .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
-  pointer-events: none; 
-  background:#ccc; 
-}
-
+  pointer-events: none;
+   background:#ccc;
+   }
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
