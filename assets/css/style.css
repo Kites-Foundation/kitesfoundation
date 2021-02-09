@@ -1311,8 +1311,11 @@ section {
   margin: 0 2px;
 }
 #chefbutton{
-  padding: 5% 35%;
-  align-content: center;
+  position: relative;
+  margin: 0 auto;
+  max-width: 250px;
+  padding: 50px 0px;
+
 }
 .button {
   position: absolute;
@@ -1323,7 +1326,7 @@ section {
   text-align: center;
   font-size: 16px;
   padding: 20px;
-  width: 300px;
+  width: 250px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
