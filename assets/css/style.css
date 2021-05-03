@@ -1685,65 +1685,39 @@ section {
 /*--------------------------------------------------------------
 # Partners
 --------------------------------------------------------------*/
-
-.partners{
-  height: 300px;
-}
-.MultiCarousel {
-  float: left;
-  overflow: hidden;
-  padding: 10px;
-  width: 100%;
-  position: relative;
+/* Clients Section
+--------------------------------*/
+#clients {
+  padding: 60px 0;
 }
 
-.MultiCarousel {
-  Height: 189px;
+#clients img {
+  max-width: 80%;
+  opacity: 1;
+  transition: 0.3s;
+  padding: 15px 0;
 }
 
-.MultiCarousel .MultiCarousel-inner {
-  transition: 1s ease all;
-  float: left;
+#clients img:hover {
+  opacity: 1;
 }
 
-.MultiCarousel .MultiCarousel-inner .item {
-  float: left;
-}
-
-.MultiCarousel .MultiCarousel-inner .item>div {
+#clients .owl-nav, #clients .owl-dots {
+  margin-top: 5px;
   text-align: center;
-  margin: 10px;
-  background: #f1f1f1;
-  color: #666;
-  
 }
 
-.MultiCarousel .leftLst,
-.MultiCarousel .rightLst {
-  background-color:blue;
-  color: black;
-  outline: white !important;
-  box-shadow: none;
-  position: absolute;
-  border-radius: 10%;
-  top: calc(50% - 20px);
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
 }
 
-.MultiCarousel .leftLst {
-  left: 0;
-}
-
-.MultiCarousel .rightLst {
-  right: 0;
-}
-
-
-
-
-.MultiCarousel .leftLst.over,
-.MultiCarousel .rightLst.over {
-  pointer-events: none;
-  background: rgb(255, 255, 255);
+#clients .owl-dot.active {
+  background-color: #1bb1dc;
 }
 
 /*--------------------------------------------------------------
