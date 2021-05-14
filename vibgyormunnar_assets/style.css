@@ -785,34 +785,6 @@ body {
 
 
 
-.c4munnar {
-  padding: 20px 40px 40px;
-  max-width:100%;
-}
-.c4munnar__image {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  padding-right: 0;
-  margin: 20px 30px 0 0;
-}
-
-.c4munnar__text {
-  padding-right: 70px;
-  display: inline-block;
-  width: 46%;
-}
-@media (max-width: 620px) {
-  .c4munnar__text {
-    width: 100%;
-    padding-top: 40px;
- }
- .c4munnar__image {
-   width: 100%;
-   padding-top: 0;
- }
-}
-
 .gallery {
   padding-bottom: 60px;
 }
