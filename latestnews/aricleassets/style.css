@@ -696,6 +696,7 @@ section {
 
 @media (max-width: 620px) {
     .container__text {
+        padding:30px 20px;
         width: 100%;
         padding-top: 40px;
     }
