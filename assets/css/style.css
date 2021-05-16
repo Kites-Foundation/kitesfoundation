@@ -1826,7 +1826,7 @@ section {
 Latest News
 -----------*/
 
-/* .article p, article p, .most-popular p {
+.article p, article p, .most-popular p {
   font-family: "Poppins", sans-serif ;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.85);
@@ -1845,6 +1845,7 @@ Latest News
 
 .article {
   margin-bottom: 0px;
+  padding-bottom: 0;
 }
 
 article figure {
@@ -1955,7 +1956,7 @@ article footer .btn-primary:focus {
 .more {
   overflow: hidden;
   height: 43px;
-} */
+}
 
 /*--------------------------------------------------------------
  Clients Section
