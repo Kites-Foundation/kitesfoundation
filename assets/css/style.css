@@ -356,18 +356,19 @@ h6 {
 .nav-menu .drop-down ul {
   display: block;
   position: absolute;
-  left: 0;
+  left: 15px;
   top: calc(100% + 30px);
   z-index: 99;
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: ease all 0.3s;
+  box-shadow: 0px 0px 20px rgba(18, 66, 101, 0.1);
+  transition: 0.3s;
+  border-radius: 5px;
 }
 
-.nav-menu .drop-down:hover>ul {
+.nav-menu .drop-down:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -386,13 +387,11 @@ h6 {
   color: #433f39;
 }
 
-.nav-menu .drop-down ul a:hover,
-.nav-menu .drop-down ul .active>a,
-.nav-menu .drop-down ul li:hover>a {
-  color: #ffb03b;
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+  color: #ff9b08;
 }
 
-.nav-menu .drop-down>a:after {
+.nav-menu .drop-down > a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 5px;
@@ -403,35 +402,21 @@ h6 {
   left: calc(100% - 30px);
 }
 
-.nav-menu .drop-down .drop-down:hover>ul {
+.nav-menu .drop-down .drop-down:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
 }
 
-.nav-menu .drop-down .drop-down>a {
+.nav-menu .drop-down .drop-down > a {
   padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down>a:after {
+.nav-menu .drop-down .drop-down > a:after {
   content: "\eaa0";
   font-family: IcoFont;
   position: absolute;
   right: 15px;
-}
-
-@media (max-width: 1366px) {
-  .nav-menu .drop-down .drop-down ul {
-    left: -90%;
-  }
-
-  .nav-menu .drop-down .drop-down:hover>ul {
-    left: -100%;
-  }
-
-  .nav-menu .drop-down .drop-down>a:after {
-    content: "\ea9d";
-  }
 }
 
 
@@ -520,11 +505,19 @@ h6 {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down>a:after {
+mobile-nav .drop-down > a:after {
+  content: "\ea99";
+  font-family: IcoFont;
+  padding-left: 10px;
+  position: absolute;
+  right: 15px;
+}
+
+.mobile-nav .active.drop-down > a:after {
   content: "\eaa1";
 }
 
-.mobile-nav .drop-down>a {
+.mobile-nav .drop-down > a {
   padding-right: 35px;
 }
 
