@@ -1,10 +1,3 @@
-/**
-* Template Name: Delicious - v2.1.0
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 $(document).ready(function() {
 	
 	setTimeout(function(){
@@ -143,8 +136,23 @@ $(document).ready(function() {
       height: $(window).height()
     });
   }
-// Back to top button
-$(window).scroll(function() {
+
+  // Intro carousel
+  var heroCarousel = $("#heroCarousel");
+  var heroCarouselIndicators = $("#hero-carousel-indicators");
+  heroCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
+    (index === 0) ?
+    heroCarouselIndicators.append("<li data-target='#heroCarousel' data-slide-to='" + index + "' class='active'></li>"):
+      heroCarouselIndicators.append("<li data-target='#heroCarousel' data-slide-to='" + index + "'></li>");
+  });
+
+  heroCarousel.on('slid.bs.carousel', function(e) {
+    $(this).find('h2').addClass('animate__animated animate__fadeInDown');
+    $(this).find('p, .btn-menu, .btn-book').addClass('animate__animated animate__fadeInUp');
+  });
+
+  // Back to top button
+  $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
     } else {
@@ -158,7 +166,6 @@ $(window).scroll(function() {
     }, 1500, 'easeInOutExpo');
     return false;
   });
-
 // Porfolio isotope and filter
 $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
@@ -182,15 +189,28 @@ $(window).on('load', function() {
       });
     });
   });
-    // Init AOS
-    function aos_init() {
-        AOS.init({
-          duration: 1000,
-          once: true
-        });
-      }
-      $(window).on('load', function() {
-        aos_init();
-      });
-    
-    })(jQuery);
+
+  // Portfolio details carousel
+  $(".portfolio-details-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // Init AOS
+  function aos_init() {
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  }
+  $(window).on('load', function() {
+    aos_init();
+  });
+
+
+
+
+
+})(jQuery);
