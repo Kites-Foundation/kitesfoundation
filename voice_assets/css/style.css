@@ -1287,6 +1287,53 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+
+.counts {
+  padding: 80px 0;
+  background: url("https://cdn.kites.foundation/img/mysanta/msanta4.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.counts::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(12, 11, 10, 0.7);
+}
+
+
+.counts .count-box {
+  width: 100%;
+  text-align: center;
+}
+
+.counts .count-box span {
+  font-size: 48px;
+  line-height: 48px;
+  display: block;
+  font-weight: 600;
+  color: rgb(240, 232, 232);
+  margin-left: 80px;
+  margin: auto;
+  opacity: 1;
+}
+
+.counts .count-box p {
+  padding: 8px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+
 /* Clients Section
 --------------------------------*/
 #clients {
@@ -1676,6 +1723,7 @@ section {
 }
 
 .gallery {
+  padding-top: 50px;
   padding-bottom: 80px;
 }
 
