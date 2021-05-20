@@ -214,7 +214,7 @@
   $(document).ready(function() {
     $('.venobox').venobox();
   });
-
+  
   // Clients carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
     autoplay: true,
