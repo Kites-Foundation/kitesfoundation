@@ -428,6 +428,12 @@
 .portfolio{
     padding-top: 200px;
 }
+
+@media (max-width: 992px) {
+    .portfolio {
+padding-top: 150px;
+    }
+  }
 .portfolio .portfolio-item {
     margin-bottom: 30px;
   }
