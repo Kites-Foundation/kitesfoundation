@@ -177,7 +177,13 @@
   });
  
 
-
+ // Testimonials carousel (uses the Owl Carousel library)
+ $(".events-carousel").owlCarousel({
+  autoplay: true,
+  dots: true,
+  loop: true,
+  items: 1
+ });
 
   // Skills section
   $('#skills').waypoint(function() {
