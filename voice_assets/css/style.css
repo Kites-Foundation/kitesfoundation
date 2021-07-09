@@ -943,8 +943,9 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(https://cdn.kites.foundation/img/call-to-action-bg.jpg) fixed center center;
-  background-size: cover;
+  background: url(https://cdn.kites.foundation/img/voice_assets/img/coverimage.jpg)center center;
+  background-size: 100%;
+  background-attachment: fixed;
   padding: 60px 0;
 }
 
@@ -956,6 +957,7 @@ section {
 
 #call-to-action p {
   color: #fff;
+  font-weight: 700;
 }
 
 #call-to-action .cta-btn {
@@ -974,8 +976,9 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  color:#000 ;
+  background: #ddd;
+  border: 2px solid #ddd;
 }
 
 /* Call To Action Section
