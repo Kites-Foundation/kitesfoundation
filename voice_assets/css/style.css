@@ -983,25 +983,25 @@ section {
 
 /* Call To Action Section
 --------------------------------*/
-#call-to-action-punarjjani {
+#call-to-action-p {
   background: url(punarjani/p2.jpg)center center;
   background-size: 100%;
   background-attachment: fixed;
   padding: 60px 0;
 }
 
-#call-to-action-punarjjani h3 {
+#call-to-action-p h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action-punarjjani p {
+#call-to-action-p p {
   color: #fff;
   font-weight: 700;
 }
 
-#call-to-action-punarjjani .cta-btn {
+#call-to-action-p .cta-btn {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -1016,7 +1016,7 @@ section {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#call-to-action-p .cta-btn:hover {
   color:#000 ;
   background: #ddd;
   border: 2px solid #ddd;
