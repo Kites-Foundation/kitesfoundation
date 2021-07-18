@@ -983,6 +983,47 @@ section {
 
 /* Call To Action Section
 --------------------------------*/
+#call-to-action-punarjjani {
+  background: url(punarjani/p2.jpg)center center;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: 60px 0;
+}
+
+#call-to-action-punarjjani h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action-punarjjani p {
+  color: #fff;
+  font-weight: 700;
+}
+
+#call-to-action-punarjjani .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#call-to-action .cta-btn:hover {
+  color:#000 ;
+  background: #ddd;
+  border: 2px solid #ddd;
+}
+
+/* Call To Action Section
+--------------------------------*/
 #skills {
   padding: 60px 0;
 }
