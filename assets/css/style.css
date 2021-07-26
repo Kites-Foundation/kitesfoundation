@@ -2236,11 +2236,11 @@ article footer .btn-primary:focus {
   font-weight: 600;
   color: #fff;
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 3px;
 }
 
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 #footer .footer-top .footer-links ul {
@@ -2257,8 +2257,8 @@ article footer .btn-primary:focus {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
+  padding: 0px 5px;
+  display: inline;
   align-items: center;
 }
 
