@@ -425,12 +425,13 @@ p{
 # Contact
 --------------------------------------------------------------*/
 .contact{
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 60px;
+  padding: 40px;
 }
 
 .contact .info {
