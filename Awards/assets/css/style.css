@@ -52,9 +52,14 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  border-left: 5px solid #f0c641;
+  border-right: 5px solid #f0c641;
+  border-top: 5px solid #f0c641;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
+  background-color: 
+  #fff;
 }
 
 #header .logo {
@@ -71,14 +76,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#header .logo img {
-  max-height: 40px;
-}
+ #header .logo img {
+  max-height: 100px;
+} 
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: #fff;
+  border: hidden;
+  background:#fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 #header.header-scrolled .logo a, #header.header-inner-pages .logo a {
@@ -114,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #193153;
   transition: 0.3s;
   font-size: 15px;
   padding: 0 4px;
@@ -173,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #f0c641;
+  color: #fff;
 }
 
 .nav-menu .drop-down > a:after {
@@ -349,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  border: 10px solid #f0c641;
+  border: 5px solid  #f0c641;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -377,8 +383,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
   color: #fff;
+  font-family:  "Satisfy", sans-serif;
 }
 
 #hero h2 {
