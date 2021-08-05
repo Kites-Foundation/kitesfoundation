@@ -347,7 +347,7 @@ p {
 
 .page-title {
   font-family: 'Satisfy', cursive;
-  width: auto;
+  width: fit-content;
   margin-bottom: 5px;
 }
 
