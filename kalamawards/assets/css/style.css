@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 5px solid #f0c641;
   transition: all 0.5s;
   z-index: 997;
-  padding: 10px 0;
+  padding: 6px 0;
   background-color: 
   #fff;
 }
@@ -141,9 +141,28 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
+
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
   transform: scaleX(1);
+}
+
+.nav-menu .book-a-table a {
+  background:#193153;
+  color: #fff;
+  border-radius: 50px;
+  margin: 0 0 0 0px;
+  padding:10px 25px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.nav-menu .book-a-table a:hover {
+  background: #fff;
+  color: #193153;
 }
 
 .nav-menu .drop-down ul {
@@ -211,8 +230,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-scrolled .nav-menu > ul > li > a, .header-inner-pages .nav-menu > ul > li > a {
-  color: #493c3e;
+  color: #193153;
 }
+
+.header-scrolled .nav-menu .book-a-table a {
+  background:#193153;
+  color: #fff;}
 
 @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
@@ -332,6 +355,30 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+
+.mobile-nav .book-a-table{
+  padding-bottom: 7px;
+}
+.mobile-nav .book-a-table a {
+  background: #193153;
+  color: #fff;
+  border-radius: 50px;
+  margin: 0 0 0 20px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.mobile-nav .book-a-table a:hover {
+  background: #fff;
+  color:#193153;
+}
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
