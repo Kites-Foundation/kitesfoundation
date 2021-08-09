@@ -367,7 +367,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   color:#193153;
 }
-
+.mobile-nav .book-a-table{
+  padding-bottom: 7px;
+}
 
 .page-section {
   margin: 0 auto;
