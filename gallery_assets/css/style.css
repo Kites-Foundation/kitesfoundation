@@ -602,12 +602,22 @@ padding-top: 150px;
 #footer .footer-top .footer-info h3 {
   color: #ffb03b;
   font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
 }
 
+.footer-newsletter{
+  text-align: right;
+   }
+
+@media (max-width: 992px) {
+  .footer-newsletter{
+    text-align: left;
+  }
+}
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
@@ -637,13 +647,16 @@ padding-top: 150px;
   text-decoration: none;
 }
 
+
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
   color: #fff;
   position: relative;
   padding-bottom: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .footer-newsletter .icofont-envelope ,.footer-newsletter .icofont-phone{
   color: #ffb03b;
