@@ -2136,6 +2136,10 @@ article footer .btn-primary:focus {
 .footer-newsletter{
 text-align: right;
  }
+ .footer-newsletter p{
+  text-align: right;
+  color: #fff;
+   }
  #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
