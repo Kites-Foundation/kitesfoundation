@@ -2201,3 +2201,89 @@ text-align: right;
     text-align: left;
   }
 }
+
+
+
+
+/* INTERNSHIP */
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#content h2,p{
+  color: rgb(41, 40, 40);
+}
+#content{
+padding-top: 2em;
+
+font-family: Arial, Helvetica, sans-serif;
+background-color: #eeb55f;
+}
+.conent p{
+  color: rgb(41, 40, 40);
+}
+
+
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features{
+  background-color: #f8f4ee}
+.features .nav-tabs {
+  border: 0;
+}
+
+.features .nav-link {
+  border: 0;
+  padding: 12px 15px 12px 0;
+  transition: 0.3s;
+  color: #474a4c;
+  border-radius: 0;
+  border-right: 2px solid white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.features .nav-link:hover {
+  color: #ffa012;
+}
+
+.features .nav-link.active {
+  color: #ffb03b;
+  border-color: #ffb03b;
+  background-color:#f8f4ee ;
+ 
+}
+
+.features .tab-pane.active {
+  -webkit-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.features .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #474138;
+}
+
+.features .details p {
+  color: #5e5950;
+}
+
+.features .details p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .features .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+  .features .nav-link.active {
+    color: #fff;
+    background: #ffc56e;
+  }
+}
