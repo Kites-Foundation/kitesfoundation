@@ -753,19 +753,14 @@ background-image: linear-gradient(315deg, #e5ad39 0%, #193153 74%);
 }
 .team-boxed {
   color:#313437;
-  background-color:#eef4f7;
+
 }
 
 .team-boxed p {
-  color:#7d8285;
+  color:#343536;
 }
 
-.team-boxed h2 {
-  font-weight:bold;
-  margin-bottom:40px;
-  padding-top:40px;
-  color:inherit;
-}
+
 
 @media (max-width:767px) {
   .team-boxed h2 {
