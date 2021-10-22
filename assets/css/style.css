@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
 }
 
-mobile-nav .drop-down>a:after {
+.mobile-nav .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;

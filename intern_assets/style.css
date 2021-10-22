@@ -675,6 +675,28 @@ body {
       background: #ffc56e;
     }
   }
+  .btn-learn-more {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 30px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #e7a33d;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #ffc56e;
+  }
+  
+  .btn-learn-more:hover {
+    background: #ffc56e;
+    color: #fff;
+    text-decoration: none;
+  }
   /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
