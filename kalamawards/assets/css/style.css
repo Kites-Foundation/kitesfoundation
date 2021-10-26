@@ -753,6 +753,8 @@ background-image: linear-gradient(315deg, #e5ad39 0%, #193153 74%);
 }
 .team-boxed {
   color:#313437;
+  background-color: #f0f0ee;
+  padding-top: 2.5em;
 
 }
 
@@ -760,6 +762,9 @@ background-image: linear-gradient(315deg, #e5ad39 0%, #193153 74%);
   color:#343536;
 }
 
+.team-boxed h4{
+  font-size: 18px;
+}
 
 
 @media (max-width:767px) {
@@ -781,7 +786,8 @@ background-image: linear-gradient(315deg, #e5ad39 0%, #193153 74%);
 }
 
 .team-boxed .people {
-  padding:50px 0;
+  padding:5px 0;
+  
 }
 
 .team-boxed .item {
@@ -820,21 +826,7 @@ background-image: linear-gradient(315deg, #e5ad39 0%, #193153 74%);
   max-width:160px;
 }
 
-.team-boxed .social {
-  font-size:18px;
-  color:#a2a8ae;
-}
 
-.team-boxed .social a {
-  color:inherit;
-  margin:0 10px;
-  display:inline-block;
-  opacity:0.7;
-}
-
-.team-boxed .social a:hover {
-  opacity:1;
-}
 
 /*--------------------------------------------------------------
 # Portfolio
