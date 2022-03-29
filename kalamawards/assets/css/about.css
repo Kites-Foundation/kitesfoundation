@@ -673,3 +673,40 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
+
+
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.cards{
+  margin-top:2em;
+
+}
+
+.card-title{
+  font-weight: 700;
+}
+
+.card{
+  border: none;
+  margin-bottom: 3em;
+  background-color: #f1f1ee;
+  font-size: 15px;
+}
+
+.section-title{
+  margin-top: 10em;
+}
+.section-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-title h3 span {
+  color: #f0c641;
+}
+
