@@ -446,10 +446,10 @@ mobile-nav .drop-down>a:after {
 }
 
 .about .content h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   margin-top: 5px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 .about #vision{
   padding-top: 3em;
