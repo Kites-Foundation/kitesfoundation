@@ -577,7 +577,7 @@ section {
 
 .section-title h2 {
   margin: 15px 0 0 0;
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 700;
   color: #5f5950;
 }
@@ -657,6 +657,63 @@ section {
     display: inline-block;
   }
 }
+
+/*--------------------------------------------------------------
+# Impact
+--------------------------------------------------------------*/
+
+
+#heading-impacts {
+  color: #f9f3f3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 42px; 
+  line-height: 1;
+}
+
+
+#impacts {
+  background: rgb(255, 255, 255);
+}
+
+#impacts .box {
+  padding: 30px 20px;
+}
+
+#impacts .box1 {
+  /* background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%); */
+}
+
+#impacts .box-bg {
+  /* background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%); */
+}
+
+#impacts i {
+  
+  font-size: 38px;
+  display: inline-block;
+  line-height: 1;
+}
+
+#impacts h1 {
+  margin: 15px 0;
+}
+
+#impacts h1 a {
+  color: rgb(236, 187, 10);
+}
+
+#impacts h1 a:hover {
+  color: #4ba776;
+}
+
+#impacts p {
+  line-height: 24px;
+  color: rgb(236, 187, 10);
+  margin-bottom: 0;
+}
+
+
 
 /*--------------------------------------------------------------
 # About
