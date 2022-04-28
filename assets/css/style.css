@@ -664,12 +664,13 @@ section {
 
 
 #heading-impacts {
-  color: #f9f3f3;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffb03b;
+  font-family:Satisfy, sans-serif;
   text-align: center;
-  font-size: 42px; 
+  font-size: 50px; 
   line-height: 1;
 }
+
 
 
 #impacts {
@@ -709,7 +710,6 @@ section {
 
 #impacts p {
   line-height: 24px;
-  color: rgb(236, 187, 10);
   margin-bottom: 0;
 }
 
@@ -1072,6 +1072,117 @@ section {
     background: #ffb03b;
   }
 }
+
+/*--------------------------------------------------------------
+# We reached
+--------------------------------------------------------------*/
+
+.reach {
+  /* background: url(https://cdn.kites.foundation/img/events-bg.jpg) center center no-repeat;
+  background-size: cover; */
+  position: relative;
+}
+
+.reach::before {
+  content: '';
+  background-color: rgba(79, 77, 75, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.reach .section-title h2 {
+  color: #fff;
+}
+
+.reach .container {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .reach {
+    background-attachment: fixed;
+  }
+}
+
+.reach .events-carousel {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+}
+
+.reach .event-item {
+  color: #fff;
+}
+
+.reach .event-item p {
+  color: #fff;
+}
+.reach .event-item h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #ffb03b;
+}
+
+.reach .event-item .price {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.reach .event-item .price span {
+  border-bottom: 2px solid #ffb03b;
+}
+
+.reach .event-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reach .event-item ul li {
+  padding-bottom: 10px;
+}
+
+.reach .event-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ffb03b;
+}
+
+.reach .event-item p:last-child {
+  margin-bottom: 0;
+}
+
+.reach .owl-nav, .reach .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.reach .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.reach .owl-dot.active {
+  background-color: #ffb03b !important;
+}
+
+@media (min-width: 992px) {
+  .reach .testimonial-item p {
+    width: 80%;
+  }
+}
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Events
