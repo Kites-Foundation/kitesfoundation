@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 10px;
-  padding: 10px 25px;
+  padding: 10px 15px;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
@@ -659,58 +659,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Impact
+# Impacts
 --------------------------------------------------------------*/
 
 
 #heading-impacts {
-  color: #f9f3f3;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffb03b;
+  font-family:Satisfy, sans-serif;
   text-align: center;
-  font-size: 42px; 
+  font-size: 50px; 
   line-height: 1;
-}
-
-
-#impacts {
-  background: rgb(255, 255, 255);
-}
-
-#impacts .box {
-  padding: 30px 20px;
-}
-
-#impacts .box1 {
-  /* background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%); */
-}
-
-#impacts .box-bg {
-  /* background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%); */
-}
-
-#impacts i {
-  
-  font-size: 38px;
-  display: inline-block;
-  line-height: 1;
-}
-
-#impacts h1 {
-  margin: 15px 0;
-}
-
-#impacts h1 a {
-  color: rgb(236, 187, 10);
-}
-
-#impacts h1 a:hover {
-  color: #4ba776;
-}
-
-#impacts p {
-  line-height: 24px;
-  color: rgb(236, 187, 10);
-  margin-bottom: 0;
 }
 
 
@@ -1072,6 +1030,117 @@ section {
     background: #ffb03b;
   }
 }
+
+/*--------------------------------------------------------------
+# We reached
+--------------------------------------------------------------*/
+
+.reach {
+  /* background: url(https://cdn.kites.foundation/img/events-bg.jpg) center center no-repeat;
+  background-size: cover; */
+  position: relative;
+}
+
+.reach::before {
+  content: '';
+  background-color: rgba(79, 77, 75, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.reach .section-title h2 {
+  color: #fff;
+}
+
+.reach .container {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .reach {
+    background-attachment: fixed;
+  }
+}
+
+.reach .events-carousel {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+}
+
+.reach .event-item {
+  color: #fff;
+}
+
+.reach .event-item p {
+  color: #fff;
+}
+.reach .event-item h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #ffb03b;
+}
+
+.reach .event-item .price {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.reach .event-item .price span {
+  border-bottom: 2px solid #ffb03b;
+}
+
+.reach .event-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reach .event-item ul li {
+  padding-bottom: 10px;
+}
+
+.reach .event-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ffb03b;
+}
+
+.reach .event-item p:last-child {
+  margin-bottom: 0;
+}
+
+.reach .owl-nav, .reach .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.reach .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.reach .owl-dot.active {
+  background-color: #ffb03b !important;
+}
+
+@media (min-width: 992px) {
+  .reach .testimonial-item p {
+    width: 80%;
+  }
+}
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Events
