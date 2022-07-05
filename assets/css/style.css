@@ -658,19 +658,50 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
-# Impacts
+# Counts
 --------------------------------------------------------------*/
-
-
-#heading-impacts {
-  color: #ffb03b;
-  font-family:Satisfy, sans-serif;
-  text-align: center;
-  font-size: 50px; 
-  line-height: 1;
+.counts {
+  padding: 80px 0 60px 0;
+  position: relative;
 }
-
+.counts::before {
+  content: "";
+  position: absolute;
+  background: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.counts .title {
+  position: relative;
+  color: #ffb03b;
+  margin-bottom: 40px;
+}
+.counts .title h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.counts .counters span {
+  font-size: 45px;
+  display: block;
+  font-weight: 700;
+  color: #ffb03b;
+}
+.counts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(12, 12, 12);
+}
+@media (min-width: 1200px) {
+  .counts {
+    background-attachment: fixed;
+  }
+}
 
 
 /*--------------------------------------------------------------
