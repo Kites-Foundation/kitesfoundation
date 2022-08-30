@@ -440,6 +440,23 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
+#hero .btn-menu, #hero .btn-book {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 0 10px;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  color: #fff;
+  border: 2px solid #ffb03b;
+}
+
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
