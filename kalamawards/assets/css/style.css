@@ -2027,3 +2027,27 @@ background-image: linear-gradient(315deg, #e5ad39 0%, #193153 74%);
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
+
+
+.apply-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.apply-sectionul li+li {
+  margin-top: 15px;
+}
+
+.apply-section ul li {
+  position: relative;
+  padding-left: 30px;
+  padding-top: 7px;
+}
+
+.apply-section ul i {
+  font-size: 20px;
+  color: #ffb03b;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
