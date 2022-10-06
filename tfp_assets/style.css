@@ -698,7 +698,7 @@ body {
     margin-bottom: 20px;
     border: 1px solid rgb(61, 58, 58);
     border-radius: 4px;
-    min-height: 40em;
+    min-height: 36em;
   }
   
   #featured-services .about-col .img {
@@ -764,6 +764,14 @@ body {
     padding: 0 20px 20px 20px;
   }
   
+
+  #helps {
+    align-items:flex-start;
+  }
+  #offers {
+    align-content: center;
+    align-items: center;
+  }
 
    /*--------------------------------------------------------------
   # Gallery
