@@ -465,26 +465,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* graphics Section */
-
-.graphics {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  
-}
-
-#graphics h1 span {
-  color: #ffb03b;
-  
-}
-#graphics h1 p {
-  
-  font-size: 70px;
-}
-
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -631,6 +611,31 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
+  }
+}
+
+
+/* graphics Section */
+
+.graphics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  
+}
+
+#graphics h1 span {
+  color: #ffb03b;
+  
+}
+#graphics h1 p {
+  
+  font-size: 50px;
+}
+@media (min-width: 1024px) {
+  #graphics {
+    width: 50%;
   }
 }
 
