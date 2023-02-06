@@ -464,11 +464,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 
-.start {
+/* graphics Section */
+
+.graphics {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -476,14 +475,20 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-#start h1 span {
+#graphics h1 span {
   color: #ffb03b;
   
 }
-#start h1 p {
+#graphics h1 p {
   
   font-size: 70px;
 }
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
 
 
 #hero {
