@@ -144,7 +144,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 100px;
+  max-height: 70px;
   margin-right: 30px;
 }
 
@@ -457,7 +457,8 @@ section {
 
 /* intro */
 #intro h1{
-  font-size:50px;
+  color: #fff;
+  font-size:40px;
   text-align: center;
   font-family: "Satisfy", sans-serif;
 }
