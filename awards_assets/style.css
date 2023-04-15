@@ -527,13 +527,26 @@ body {
     font-size: 35px ;
   }
   .award1 img {
-    height: 300px;
-    width: 500px;
+   max-height: 300px;
+   min-width: 400px;
   }
   .award1 {
     display: flex;
   }
 
+  @media screen and (max-width:992px)
+  {
+     .awards h2 {
+      font-size: 35px;
+     }
+     .award1 img {
+      max-height: 290px;
+      max-width: 200px;
+     }
+     .award1 {
+      display:contents;
+    }
+  }
 
 
 
