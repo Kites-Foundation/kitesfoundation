@@ -1223,7 +1223,7 @@ section {
 --------------------------------------------------------------*/
 
 .reach {
-  /* background: url(https://cdn.kites.foundation/img/events-bg.jpg) center center no-repeat;
+  /* background: url(https://cdn.kitesfoundation.org/img/events-bg.jpg) center center no-repeat;
   background-size: cover; */
   position: relative;
 }
@@ -1334,7 +1334,7 @@ section {
 --------------------------------------------------------------*/
 
 .events {
-  background: url(https://cdn.kites.foundation/img/events-bg.jpg) center center no-repeat;
+  background: url(https://cdn.kitesfoundation.org/img/events-bg.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1651,15 +1651,15 @@ section {
 }
 
 .card-1 .card-img, .card-1 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url('https://cdn.kites.foundation/img/upcoming/upcoming1.jpeg');
+  background-image: var(--card-img-hovered-overlay), url('https://cdn.kitesfoundation.org/img/upcoming/upcoming1.jpeg');
 }
 
 .card-2 .card-img, .card-2 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url('https://cdn.kites.foundation/img/upcoming/upcoming2.jpeg');
+  background-image: var(--card-img-hovered-overlay), url('https://cdn.kitesfoundation.org/img/upcoming/upcoming2.jpeg');
 }
 
 .card-3 .card-img, .card-3 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url('https://cdn.kites.foundation/img/upcoming/upcoming3.jpeg');
+  background-image: var(--card-img-hovered-overlay), url('https://cdn.kitesfoundation.org/img/upcoming/upcoming3.jpeg');
 }
 
 /*--------------------------------------------------------------
@@ -1735,7 +1735,7 @@ section {
 --------------------------------------------------------------*/
 
 .chefs {
-  background: url("https://cdn.kites.foundation/img/chefs-bg.jpg") center center no-repeat;
+  background: url("https://cdn.kitesfoundation.org/img/chefs-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -1912,7 +1912,7 @@ section {
 
 .testimonials {
   padding: 80px 0;
-  background: url("https://cdn.kites.foundation/img/testimonials-bg.jpg") no-repeat;
+  background: url("https://cdn.kitesfoundation.org/img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
