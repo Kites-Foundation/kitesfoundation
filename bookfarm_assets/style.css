@@ -662,7 +662,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: url("https://cdn.kites.foundation/img/about-bg.jpg") center top no-repeat fixed;
+  background: url("https://cdn.kitesfoundation.org/img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -942,7 +942,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: url(https://cdn.kites.foundation/img/voice_assets/img/registration.jpg)center center;
+  background: url(https://cdn.kitesfoundation.org/img/voice_assets/img/registration.jpg)center center;
   background-size: 100%;
   background-attachment: fixed;
   padding: 60px 0;
@@ -1336,7 +1336,7 @@ section {
 
 .counts {
   padding: 80px 0;
-  background: url("https://cdn.kites.foundation/img/mysanta/msanta4.jpg") no-repeat;
+  background: url("https://cdn.kitesfoundation.org/img/mysanta/msanta4.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;

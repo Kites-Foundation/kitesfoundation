@@ -669,7 +669,7 @@ body {
   --------------------------------*/
   
   #about {
-    background: url("https://cdn.kites.foundation/img/about-bg.jpg") center top no-repeat fixed;
+    background: url("https://cdn.kitesfoundation.org/img/about-bg.jpg") center top no-repeat fixed;
     background-size: cover;
     padding: 60px 0 40px 0;
     position: relative;
@@ -770,7 +770,7 @@ body {
 
 .counts {
   padding: 80px 0;
-  background: url("https://cdn.kites.foundation/img/umeed/umeed4.jpg") no-repeat;
+  background: url("https://cdn.kitesfoundation.org/img/umeed/umeed4.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -861,7 +861,7 @@ body {
   --------------------------------*/
   
   #call-to-action {
-    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(https://cdn.kites.foundation/img/call-to-action-bg.jpg) fixed center center;
+    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(https://cdn.kitesfoundation.org/img/call-to-action-bg.jpg) fixed center center;
     background-size: cover;
     padding: 60px 0;
   }

@@ -698,7 +698,7 @@ body {
   /* About Us Section
   --------------------------------*/
   #about {
-    background: url("https://cdn.kites.foundation/img/about-bg.jpg") center top no-repeat fixed;
+    background: url("https://cdn.kitesfoundation.org/img/about-bg.jpg") center top no-repeat fixed;
     background-size: cover;
     padding: 60px 0 40px 0;
     position: relative;
@@ -919,7 +919,7 @@ body {
   padding-bottom: 15px;
 }
 .events {
-  background: url("https://cdn.kites.foundation/img/testimonials-bg.jpg") center center no-repeat;
+  background: url("https://cdn.kitesfoundation.org/img/testimonials-bg.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
   height: 580px;
